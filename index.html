@@ -12,31 +12,35 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="container">
     <div>
-        <img src="unknown.png" alt="Здесь была картинка" width="250">
+        <img src="unknown.png" alt="Здесь была картинка" width="250" class="_image">
         <h1>Андрей Пипкин</h1>
         <article>
-            <p><b>Владелец</b> несозданной компании <strong>AndrushaSoftware</strong></p>
-            <p>Люблю <em>смеяться</em>, <em>учиться</em> и <em>прогать</em>!</p>
+            <p><b>Владелец</b> несозданной компании <strong>AndrushaSoftware</strong>.<br>
+                Люблю <em>смеяться</em>, <em>учиться</em> и <em>прогать</em>!</p>
         </article>
     </div>
 
-    <div class="hobbies card">
-        <div class="inside_hobbies">
-            <h3>Мои хобби</h3>
-            <ol>
-                <li>Фотобашить</li>
-                <li>Создавать игры на Unity3D</li>
-                <li>Слушать ебейший музон</li>
-                <li>Учиться прогать</li>
-            </ol>
-        </div>
+    <div class="block">
+        <h3>Соцсети</h3>
+        <a href="https://vk.com/olyanssc" target="_blank">VK</a> |
+        <a href="https://t.me/AndrushaSoftware" target="_blank">Telegram</a>
     </div>
 
-    <div class="hobbies card">
+    <div class="card b_green">
+        <h3>Мои хобби</h3>
+        <ol>
+            <li>Фотобашить</li>
+            <li>Создавать игры на Unity3D</li>
+            <li>Слушать ебейший музон</li>
+            <li>Учиться прогать</li>
+        </ol>
+    </div>
+
+    <div class="card b_red">
         <h3>Опыт работы</h3>
-        <table class="inside_hobbies">
+        <table>
             <thead>
                 <tr>
                     <th>Название</th>
@@ -51,15 +55,14 @@
                     <td>2018-2020</td>
                 </tr>
             </tbody>
+            <tfoot>
+                <tr>
+                    <td>AndrushaSoftware</td>
+                    <td>FullStack</td>
+                    <td>2022-сейчас</td>
+                </tr>
+            </tfoot>
         </table>
-    </div>
-
-    <div>
-        <hr>
-        <h3 class="card">Соцсети</h3>
-        <a href="https://vk.com/olyanssc" target="_blank">VK</a> |
-        <a href="https://t.me/AndrushaSoftware" target="_blank">Telegram</a>
-        <hr>
     </div>
 
     <h3>Напиши мне</h3>
@@ -83,7 +86,7 @@
             </div>
 
             <div>
-                <input type="submit" value="Отправить!">
+                <input type="submit" value="Отправить!" class="btn">
             </div>
         </form>
     </div>
