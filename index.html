@@ -17,8 +17,8 @@
         <img src="unknown.png" alt="Здесь была картинка" width="250" class="_image block-2">
         <div class="block-3">
             <h1>Андрей Пипкин</h1>
-            <p><b>Я</b>являюсь основателем еще не созданной компании <strong>AndrushaSoftware</strong>.<br>
-                Я люблю отдыхать, играть в игры: League Of Legend, OSU, Genshin Impact</p>
+            <p><b>Я </b>являюсь основателем еще не созданной компании <strong>AndrushaSoftware</strong>.<br>
+                Я люблю отдыхать, играть в игры:<br>League Of Legend, OSU, Genshin Impact</p>
             <h4>Список социальный сетей</h4>
             <a href="https://vk.com/olyanssc" target="_blank">VK</a> |
             <a href="https://t.me/AndrushaSoftware" target="_blank">Telegram</a>
@@ -57,31 +57,32 @@
         </ul>
     </div>
 
-    <h3>Напиши мне</h3>
+    <form action="\" class="form">
+        <h3>Связаться со мной</h3>
 
-    <div>
-        <form>
-            <div>
-                <label for="f_name">Ваше имя</label>
+        <div class="form-row">
+
+            <div class="form-group">
+                <label for="f_name">Ваше имя:</label>
                 <input type="text" id="f_name" placeholder="Введите имя">
             </div>
 
-            <div>
-                <label for="email">Ваш email</label>
+            <div class="form-group">
+                <label for="email">Ваш email:</label>
                 <input type="email" id="email" placeholder="Введите email">
             </div>
+            
+        </div>
 
-            <div>
-                <label for="message">Ваше сообщение</label>
-                <br>
-                <textarea id="message" rows="5" cols="25" placeholder="Введите сообщение"></textarea>
-            </div>
+        <div class="form-group">
+            <label for="message">Ваше сообщение:</label>
+            <textarea id="message" rows="5" cols="25" placeholder="Введите сообщение"></textarea>
+        </div>
 
-            <div>
-                <input type="submit" value="Отправить!" class="btn">
-            </div>
-        </form>
-    </div>
+        <div>
+            <input type="submit" value="Отправить!" class="btn">
+        </div>
+    </form>
 
 </body>
 
