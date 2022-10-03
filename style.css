@@ -106,12 +106,18 @@ a:visited {
     margin: 0;
 }
 
-.link_list a:visited {
+.link_list a:hover {
     color: #C71585;
+    text-decoration: none;
+}
+
+.link_list a:visited {
+    color: pink;
 }
 
 .link_list li {
     list-style: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     margin-bottom: 10px;
 }
 
